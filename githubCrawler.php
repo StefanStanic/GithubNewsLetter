@@ -1,8 +1,8 @@
 <?php
 
-include_once ('simple_html_dom.php');
+include_once('includes/simple_html_dom.php');
 require 'phpmailer/PHPMailerAutoload.php';
-require_once 'creds.php';
+require_once 'includes/creds.php';
 
 //init curl
 $ch = curl_init();
